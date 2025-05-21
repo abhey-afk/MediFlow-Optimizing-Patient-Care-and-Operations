@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "*.js",
+    "router/*.js",
+    "controller/*.js",
+    "models/*.js",
+    "middlewares/*.js",
+    "utils/*.js",
+    "config/*.js",
+    "database/*.js"
+  ],
+  "ext": "js,json",
+  "ignore": ["node_modules/", "public/"],
+  "exec": "node server.js"
+} 
